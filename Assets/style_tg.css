@@ -1,0 +1,88 @@
+#timebar {
+    width: 960px;
+    background-color: antiquewhite;
+}
+#timer {
+    width: 720px;
+    height: 30px;
+    background-color: green;
+    border: 25px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.button {
+    margin: auto;
+    background-color: antiquewhite;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    cursor: pointer;
+}
+column {
+    margin: auto;
+    max-width: 720px;
+    text-align: center;
+}
+.time-bar {
+    width: 450px;
+    height: 50px;
+    margin: 100px auto;
+    color: #4CAF50
+}
+.timerBar {
+    width: 506px;
+    height: 26px;
+    background-color: antiquewhite;
+    border-radius: 13px;
+    padding: 3px;
+    margin: 50px auto;
+}
+.timer{
+    width: 25px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #4CAF50;
+}
+.container {
+    margin: auto;
+}
+
+body {
+    margin: auto;
+    background-image: url("smoked_featured.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    font-family: 'Times New Roman', Times, serif;
+    color: antiquewhite;
+}
+header {
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+    border: 50px;
+    max-width: 960px;
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-size: 36px;
+    color: antiquewhite;
+}
+
+
+@media screen and (max-width: 720px) {
+    width: 100%;
+}
+@media screen and (max-width: 600px) {
+    width: 100%;
+}
